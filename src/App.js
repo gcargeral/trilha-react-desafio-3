@@ -7,7 +7,9 @@ import { Feed } from "./pages/feed";
 
 import { Home } from './pages/home'
 import { Login } from './pages/login'
+import { Cadastre } from './pages/cadastre'
 import { GlobalStyle } from './styles/global';
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/feed" element={<Feed />} />
+        <Route path="/cadastre" element={<Cadastre />} />
      </Routes >
     </Router>
   );
